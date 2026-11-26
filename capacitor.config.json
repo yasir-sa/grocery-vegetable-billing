@@ -1,0 +1,8 @@
+{
+  "appId": "com.abdhullah.shop",
+  "appName": "ABDHULLAH Shop",
+  "webDir": "dist",
+  "android": {
+    "backgroundColor": "#0f766e"
+  }
+}

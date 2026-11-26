@@ -43,6 +43,6 @@ export const SAMPLE_ITEMS = [
 
 const HAS_PHOTO = new Set(['tomato', 'onion', 'potato', 'carrot', 'beans', 'brinjal', 'ladysfinger', 'greenchilli', 'ginger',
   'garlic', 'cabbage', 'cucumber', 'coconut', 'coriander', 'banana', 'toordal', 'uraddal', 'chanadal', 'rice', 'sugar',
-  'salt', 'atta', 'sunfloweroil', 'gingellyoil', 'tea', 'milk', 'eggs', 'mustard', 'turmeric', 'chillipowder'])
+  'atta', 'gingellyoil', 'tea', 'milk', 'eggs', 'mustard', 'turmeric', 'chillipowder'])
 
 export const samplePhotoUrl = (key) => (HAS_PHOTO.has(key) ? `./sample/${key}.jpg` : null)
